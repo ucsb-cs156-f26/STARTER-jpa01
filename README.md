@@ -20,7 +20,7 @@ This is a minimal "Hello World" type webapp built with Spring Boot.
 # Java 25 setup with SDKMAN
 
 This project follows the course instructions for Java 25.0.4, using the
-recommended `25.0.4-tem` distribution via SDKMAN, with Maven 3.9.14
+recommended `25.0.4-tem` distribution via SDKMAN, with Maven 3.9.16
 (provided by the included Maven Wrapper, `./mvnw`).
 
 If you use SDKMAN, the setup is:
@@ -70,7 +70,7 @@ below.
   * Converting `pom.xml` to use Java 25
   * Updating Spring Boot (3.5.x), JaCoCo, and PIT (pitest) to versions that
     can read Java 25 class files
-  * Adding `.java-version`, `.sdkmanrc`, and the Maven Wrapper (`mvnw`, Maven 3.9.14)
+  * Adding `.java-version`, `.sdkmanrc`, and the Maven Wrapper (`mvnw`, Maven 3.9.16)
 * JUnit 5
   * Converting test code to use JUnit 5 instead of JUnit 4  
 * Dokku Support
